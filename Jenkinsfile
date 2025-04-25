@@ -43,11 +43,6 @@ pipeline{
                 echo 'Tools: Docker, AWS, GCP, Azure'
             }
         }
-        stage('Complete'){
-            steps{
-                echo 'Complete'
-            }
-        }
     }
     post{
         always{
