@@ -40,7 +40,7 @@ pipeline{
         stage('Deploy to Production'){
             steps{
                 echo 'Deploy the application to a production server '
-                echo 'Tools: Docker, AWS'
+                echo 'Tools: Docker, AWS, GCP, Azure'
             }
         }
     }
